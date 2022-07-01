@@ -21,7 +21,7 @@ cursor = cnx.cursor()
 
 add_pic = """INSERT INTO pictures (explanation, hdurl, url, title) VALUES (%s, %s, %s, %s)"""
 
-count=0
+count = 0
 
 base_url = 'https://api.nasa.gov/planetary/apod?api_key=' + NASA_KEY
 
